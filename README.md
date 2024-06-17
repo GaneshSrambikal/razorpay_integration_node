@@ -6,12 +6,11 @@
   <li> 🔗 Clone/fork the repo</li>
   <li>📦 Install and Run the client and server</li>
 
-```
-bash
+```bash
 npm install
 npm run dev
 ```
-  <li> ⚙️ For KEY_ID and KEY_SECRET sign up at [razorpay](https://razorpay.com). </li>
+  <li> ⚙️ For KEY_ID and KEY_SECRET sign up at https://razorpay.com</li>
 </ol>
 
 
