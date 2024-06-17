@@ -2,7 +2,7 @@ import './App.css';
 import SassProd from './assets/saas-prod-logo.png'
 function App() {
   const handlePayment = async () => {
-    const amount = 500;
+    const amount = 15000;
     const currency = 'INR';
     const receiptId = '1234567890';
 
