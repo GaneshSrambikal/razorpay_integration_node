@@ -59,7 +59,7 @@ app.post('/validate', async (req, res) => {
   const digest = sha.digest('hex');
 
   if (digest !== razorpay_signature) {
-    return res.status(400).json({ msg: 'Transaction is not validate' });
+    return res.status(400).json({ msg: 'Transaction is not legit' });
   }
 
   res.json({ msg: 'Transition is legit!', orderId: razorpay_payment_id });

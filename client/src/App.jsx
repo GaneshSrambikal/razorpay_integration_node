@@ -1,5 +1,5 @@
 import './App.css';
-
+import SassProd from './assets/saas-prod-logo.png'
 function App() {
   const handlePayment = async () => {
     const amount = 500;
@@ -27,7 +27,7 @@ function App() {
       currency,
       name: 'Saas Prod',
       description: 'Test Transaction',
-      image: 'https://i.ibb.co/5Y3m33n/test.png',
+      image: SassProd,
       order_id: data.id,
       handler: async function (res) {
         console.log(res);
